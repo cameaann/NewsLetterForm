@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Sign Up Form</title>
   </head>
@@ -28,10 +30,12 @@
         <input type="email" id="email" />
 
         <label for="password">Password</label>
-        <input type="password" id="password" />
+        <input class="pass" type="password" id="password" />
+        <i><span class="material-icons"> lock_reset </span></i>
 
         <label for="confPassword">Confirm password</label>
         <input type="password" id="confPassword" />
+        <i><span class="material-icons"> lock_reset </span></i>
         <div class="button-container">
           <button type="submit">sign up</button>
         </div>

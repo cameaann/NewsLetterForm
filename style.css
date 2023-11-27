@@ -30,6 +30,19 @@ input {
   border-radius: 4px;
   box-sizing: border-box;
 }
+input+i{
+  position: relative;
+}
+input+i>span{
+  position: absolute;
+  left:25rem;
+  top:-5rem;
+}
+input+i>span:hover{
+  cursor: pointer;
+}
+
+
 h1 {
   font-size: 3.6rem;
   letter-spacing: -2px;
