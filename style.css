@@ -52,6 +52,10 @@ button {
   margin: 1.5rem auto;
   text-transform: uppercase;
 }
+button:hover{
+  cursor: pointer;
+  background-color: #ec7546;
+}
 
 .button-container {
   text-align: center;
@@ -59,9 +63,6 @@ button {
 .button-container + p {
   font-size: 1.2rem;
   text-align: center;
-}
-.marked {
-  color: #f0855b;
 }
 form + p {
   text-align: center;
@@ -72,4 +73,8 @@ form + p {
 span a {
   text-decoration: none;
   color: #f0855b;
+}
+span a:hover{
+  cursor: pointer;
+  color:#ec7546;
 }
